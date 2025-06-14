@@ -1,0 +1,423 @@
+﻿  stdafx.cpp
+  ConfigData.cpp
+  ConfigManager.cpp
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,internal::MaybeAddConst<Const,rapidjson::GenericMember<Encoding,Allocator>>::Type,ptrdiff_t,internal::MaybeAddConst<Const,rapidjson::GenericMember<Encoding,Allocator>>::Type*,internal::MaybeAddConst<Const,rapidjson::GenericMember<Encoding,Allocator>>::Type&>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file '/ConfigManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+      C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5):
+      the template instantiation context (the oldest one first) is
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(101,7):
+          while compiling class template 'rapidjson::GenericMemberIterator'
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(958,76): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file '/ConfigManager.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(964,76): warning C4003: not enough arguments for function-like macro invocation 'min'
+  (compiling source file '/ConfigManager.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(965,75): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file '/ConfigManager.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(982,66): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file '/ConfigManager.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(983,72): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file '/ConfigManager.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         ]
+  (compiling source file '/ConfigManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+      C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19):
+      the template instantiation context (the oldest one first) is
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\ConfigManager.h(36,23):
+          see reference to class template instantiation 'rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>' being compiled
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(2024,32):
+          see reference to class template instantiation 'rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>>' being compiled
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(548,71):
+          see reference to class template instantiation 'rapidjson::GenericMemberIterator<false,Encoding,Allocator>' being compiled
+          with
+          [
+              Encoding=rapidjson::UTF8<char>,
+              Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+          ]
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         ]
+  (compiling source file '/ConfigManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>::pointer': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         ]
+  (compiling source file '/ConfigManager.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>::reference': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         ]
+  (compiling source file '/ConfigManager.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>::difference_type': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         ]
+  (compiling source file '/ConfigManager.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         ]
+  (compiling source file '/ConfigManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+      C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19):
+      the template instantiation context (the oldest one first) is
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(549,70):
+          see reference to class template instantiation 'rapidjson::GenericMemberIterator<true,Encoding,Allocator>' being compiled
+          with
+          [
+              Encoding=rapidjson::UTF8<char>,
+              Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+          ]
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         ]
+  (compiling source file '/ConfigManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>::pointer': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         ]
+  (compiling source file '/ConfigManager.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>::reference': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         ]
+  (compiling source file '/ConfigManager.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>::difference_type': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         ]
+  (compiling source file '/ConfigManager.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\ConfigManager.cpp(269,32): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/ConfigManager.cpp')
+  
+  DiscordEuroscope.cpp
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,internal::MaybeAddConst<Const,rapidjson::GenericMember<Encoding,Allocator>>::Type,ptrdiff_t,internal::MaybeAddConst<Const,rapidjson::GenericMember<Encoding,Allocator>>::Type*,internal::MaybeAddConst<Const,rapidjson::GenericMember<Encoding,Allocator>>::Type&>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file '/DiscordEuroscope.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+      C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5):
+      the template instantiation context (the oldest one first) is
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(101,7):
+          while compiling class template 'rapidjson::GenericMemberIterator'
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(958,76): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file '/DiscordEuroscope.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(964,76): warning C4003: not enough arguments for function-like macro invocation 'min'
+  (compiling source file '/DiscordEuroscope.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(965,75): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file '/DiscordEuroscope.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(982,66): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file '/DiscordEuroscope.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(983,72): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file '/DiscordEuroscope.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         ]
+  (compiling source file '/DiscordEuroscope.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+      C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19):
+      the template instantiation context (the oldest one first) is
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\ConfigManager.h(36,23):
+          see reference to class template instantiation 'rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>' being compiled
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(2024,32):
+          see reference to class template instantiation 'rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>>' being compiled
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(548,71):
+          see reference to class template instantiation 'rapidjson::GenericMemberIterator<false,Encoding,Allocator>' being compiled
+          with
+          [
+              Encoding=rapidjson::UTF8<char>,
+              Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+          ]
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscope.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>::pointer': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscope.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>::reference': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscope.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>::difference_type': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscope.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         ]
+  (compiling source file '/DiscordEuroscope.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+      C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19):
+      the template instantiation context (the oldest one first) is
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(549,70):
+          see reference to class template instantiation 'rapidjson::GenericMemberIterator<true,Encoding,Allocator>' being compiled
+          with
+          [
+              Encoding=rapidjson::UTF8<char>,
+              Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+          ]
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscope.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>::pointer': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscope.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>::reference': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscope.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>::difference_type': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscope.cpp')
+  
+  DiscordEuroscopeExt.cpp
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,internal::MaybeAddConst<Const,rapidjson::GenericMember<Encoding,Allocator>>::Type,ptrdiff_t,internal::MaybeAddConst<Const,rapidjson::GenericMember<Encoding,Allocator>>::Type*,internal::MaybeAddConst<Const,rapidjson::GenericMember<Encoding,Allocator>>::Type&>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+      C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5):
+      the template instantiation context (the oldest one first) is
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(101,7):
+          while compiling class template 'rapidjson::GenericMemberIterator'
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(958,76): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(964,76): warning C4003: not enough arguments for function-like macro invocation 'min'
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(965,75): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(982,66): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(983,72): warning C4003: not enough arguments for function-like macro invocation 'max'
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         ]
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+      C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19):
+      the template instantiation context (the oldest one first) is
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\ConfigManager.h(36,23):
+          see reference to class template instantiation 'rapidjson::GenericDocument<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>,rapidjson::CrtAllocator>' being compiled
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(2024,32):
+          see reference to class template instantiation 'rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>>' being compiled
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(548,71):
+          see reference to class template instantiation 'rapidjson::GenericMemberIterator<false,Encoding,Allocator>' being compiled
+          with
+          [
+              Encoding=rapidjson::UTF8<char>,
+              Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+          ]
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>::pointer': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>::reference': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,rapidjson::GenericMember<Encoding,Allocator> *,rapidjson::GenericMember<Encoding,Allocator> &>::difference_type': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19): warning C4996:         ]
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+      C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(102,19):
+      the template instantiation context (the oldest one first) is
+          C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(549,70):
+          see reference to class template instantiation 'rapidjson::GenericMemberIterator<true,Encoding,Allocator>' being compiled
+          with
+          [
+              Encoding=rapidjson::UTF8<char>,
+              Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+          ]
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(110,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(7526,45):
+      see declaration of 'std::iterator'
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>::pointer': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(121,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>::reference': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(123,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+  
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996: 'std::iterator<std::random_access_iterator_tag,const rapidjson::GenericMember<Encoding,Allocator>,ptrdiff_t,const rapidjson::GenericMember<Encoding,Allocator> *,const rapidjson::GenericMember<Encoding,Allocator> &>::difference_type': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         with
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         [
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:             Encoding=rapidjson::UTF8<char>,
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:             Allocator=rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator>
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\inc\rapidjson\document.h(125,5): warning C4996:         ]
+  (compiling source file '/DiscordEuroscopeExt.cpp')
+  
+  ESEHandler.cpp
+C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\DiscordEuroscope\ESEHandler.cpp(32,33): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  (compiling source file '/ESEHandler.cpp')
+  
+  MessageFormatter.cpp
+  Generating Code...
+     Creating library C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\Debug\DiscordEuroscope.lib and object C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\Debug\DiscordEuroscope.exp
+discord-rpc.lib(discord_rpc.obj) : warning LNK4099: PDB 'discord-rpc.pdb' was not found with 'discord-rpc.lib(discord_rpc.obj)' or at 'C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\Debug\discord-rpc.pdb'; linking object as if no debug info
+discord-rpc.lib(rpc_connection.obj) : warning LNK4099: PDB 'discord-rpc.pdb' was not found with 'discord-rpc.lib(rpc_connection.obj)' or at 'C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\Debug\discord-rpc.pdb'; linking object as if no debug info
+discord-rpc.lib(serialization.obj) : warning LNK4099: PDB 'discord-rpc.pdb' was not found with 'discord-rpc.lib(serialization.obj)' or at 'C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\Debug\discord-rpc.pdb'; linking object as if no debug info
+discord-rpc.lib(connection_win.obj) : warning LNK4099: PDB 'discord-rpc.pdb' was not found with 'discord-rpc.lib(connection_win.obj)' or at 'C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\Debug\discord-rpc.pdb'; linking object as if no debug info
+discord-rpc.lib(discord_register_win.obj) : warning LNK4099: PDB 'discord-rpc.pdb' was not found with 'discord-rpc.lib(discord_register_win.obj)' or at 'C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\Debug\discord-rpc.pdb'; linking object as if no debug info
+  DiscordEuroscope.vcxproj -> C:\Users\maria\Downloads\unedited\DiscordEuroscope-master\Debug\DiscordEuroscope.dll
